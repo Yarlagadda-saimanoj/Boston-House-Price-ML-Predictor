@@ -1,14 +1,16 @@
 import streamlit as st
 import joblib
 import numpy as np
+import os
 
-svr_model = joblib.load('streamlit-app/svr_model.pkl')
+
+model_path = os.path.join('streamlit-app', 'svr_model.pkl')
+image_path = os.path.join('streamlit-app', 'img', 'House.png')
+
+svr_model = joblib.load(model_path)
+st.image(image_path, use_column_width=True)
 
 st.title("Boston House Price Prediction App")
-st.image('streamlit-app/img/House.png', use_column_width=True)
-
-
-
 
 # Collect input values for all 8 features
 crim = st.number_input("Crime Rate (CRIM):")
