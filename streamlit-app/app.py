@@ -1,12 +1,13 @@
 import streamlit as st
 import joblib
 import numpy as np
+import os
 
-# Define the URL for the raw pkl file on GitHub
-model_url = 'https://github.com/Yarlagadda-saimanoj/Boston-House-Price-ML-Predictor/raw/main/streamlit-app/svr_model.pkl'
+model_path = 'streamlit-app/svr_model.pkl'
+image_path = 'streamlit-app/img/House.png'
 
-# Load the SVR model from the raw pkl file
-svr_model = joblib.load(model_url)
+svr_model = joblib.load(model_path)
+st.image(image_path, use_column_width=True)
 
 st.title("Boston House Price Prediction App")
 
