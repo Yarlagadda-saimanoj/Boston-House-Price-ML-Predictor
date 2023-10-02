@@ -3,9 +3,8 @@ import joblib
 import numpy as np
 import os
 
-
-model_path = os.path.join('streamlit-app', 'svr_model.pkl')
-image_path = os.path.join('streamlit-app', 'img', 'House.png')
+model_path = 'streamlit-app/svr_model.pkl'
+image_path = 'streamlit-app/img/House.png'
 
 svr_model = joblib.load(model_path)
 st.image(image_path, use_column_width=True)
