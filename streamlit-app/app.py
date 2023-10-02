@@ -2,10 +2,10 @@ import streamlit as st
 import joblib
 import numpy as np
 
-svr_model = joblib.load('C:/Users/YARLAGADDA SAI MANOJ/Downloads/House Price Prediction/streamlit-app/svr_model.pkl')
+svr_model = joblib.load('streamlit-app/svr_model.pkl')
 
 st.title("Boston House Price Prediction App")
-st.image('C:\\Users\\YARLAGADDA SAI MANOJ\\Downloads\\House Price Prediction\\streamlit-app\\img\\House.png', use_column_width=True)
+st.image('streamlit-app/img/House.png', use_column_width=True)
 
 
 
