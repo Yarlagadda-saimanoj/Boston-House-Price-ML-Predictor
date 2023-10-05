@@ -25,4 +25,8 @@ if st.button("Predict"):
     predicted_value = svr_model.predict(input_data)
     st.write(f'Predicted House Price: ${predicted_value[0] * 1000:.2f}')
 
-st.markdown("Made with ❤️ by [Sai Manoj Yarlagadda](https://www.linkedin.com/in/sai-manoj-yarlagadda-a6159b225/)")
+st.markdown("""
+    <div style="text-align:center;">
+        Made with ❤️ by <a href="https://www.linkedin.com/in/sai-manoj-yarlagadda-a6159b225/">Sai Manoj Yarlagadda</a>
+    </div>
+    """, unsafe_allow_html=True)
