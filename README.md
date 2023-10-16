@@ -1,5 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Yarlagadda-saimanoj/Diabetes-Prediction-ML/blob/main/LICENSE)
 ![stars](https://img.shields.io/github/stars/Yarlagadda-saimanoj/Boston-House-Price-ML-Predictor)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white)](https://boston-house-price-ml-predictor-saimanoj.streamlit.app/)
 
 # Boston House Price ML Predictor
 
