@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Yarlagadda-saimanoj/Diabetes-Prediction-ML/blob/main/LICENSE)
+![stars](https://img.shields.io/github/stars/Yarlagadda-saimanoj/Boston-House-Price-ML-Predictor)
+
 # Boston House Price ML Predictor
 
 Welcome to the Boston House Price ML Predictor! This project uses Machine Learning to predict house prices in the Boston area based on various features.
